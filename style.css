@@ -27,29 +27,27 @@ main {
  justify-content: center;
     align-items: center;
     display: flex;
+    
+    padding-top: 200px;
+    padding-bottom: 300px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 .card.container {
-    margin: 200px;
-    margin-top: 200px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 300px;
-
-
     height: 500px;
     width: 700px;
     padding: 50px 40px;
     background-color: whitesmoke;
     border-radius: 15px;
 
-    /* display: flex; */
 }
 
 .card.container .header {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .card.container .title {
@@ -58,7 +56,10 @@ main {
 
 .card.container .profile {
     background-color: #2e3541;
-    height: 150px;
-    width: 110px;
+    height: 200px;
+    width: 200px;
 }
 
+.card.container .details {
+    font-size: 20px;
+}
