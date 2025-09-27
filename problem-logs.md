@@ -27,4 +27,16 @@ Keys are the individual words (in lowercase)
 Values are how many times each word appears in the sentence
 
 
-## 
+## September 9/28/25
+
+#### HTML CSS - 2
+Daily Code Problem - Difficulty 2
+Problem: Personal Card Layout
+Create a personal card (like a business card) using HTML and CSS that displays:
+
+A person's name as a heading
+Their job title
+Their email address
+A short bio (2-3 sentences)
+A profile picture placeholder (you can use a colored rectangle)
+
