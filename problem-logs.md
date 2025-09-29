@@ -40,3 +40,18 @@ Their email address
 A short bio (2-3 sentences)
 A profile picture placeholder (you can use a colored rectangle)
 
+
+# September 9/29/25
+
+#### HTML CSS - 3
+Problem: Responsive Navigation Bar
+Create a horizontal navigation bar for a website that includes:
+
+A logo/brand name on the left side
+Navigation links (Home, About, Services, Contact) on the right side
+Hover effects on the navigation links
+A different background color for the "active" page (e.g., Home is active)
+The nav bar should stick to the top of the page
+
+
+#
