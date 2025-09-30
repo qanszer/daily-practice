@@ -39,25 +39,42 @@
 # September 9/27/25
 
 # Python - 3
-def count_words (sentence):
-    sentence1 = sentence.replace(".","").replace("!","").replace(",","").replace(";","").replace("?","").replace(":","").replace('""',"").replace("''","").replace("()","")
-    sentence2 = sentence1.lower().split()
-    word_count = {}
+# def count_words (sentence):
+#     sentence1 = sentence.replace(".","").replace("!","").replace(",","").replace(";","").replace("?","").replace(":","").replace('""',"").replace("''","").replace("()","")
+#     sentence2 = sentence1.lower().split()
+#     word_count = {}
 
     
-    for word in sentence2:
-        if word in word_count:
-            word_count[word] += 1
-        else:
-            word_count[word] = 1
+#     for word in sentence2:
+#         if word in word_count:
+#             word_count[word] += 1
+#         else:
+#             word_count[word] = 1
 
-    return word_count
+#     return word_count
 
-sentence = str(input("Enter a sentence: "))
-print(count_words(sentence))
+# sentence = str(input("Enter a sentence: "))
+# print(count_words(sentence))
 
 
 # ===================
-# September 9/28/25
+# September 9/30/25
 
-# HTML, CSS - 2
+# Python - 3
+
+def is_palindrome(string):
+    if string == " ":
+        result = True
+    else:
+        updated_string = string.lower().replace(".","").replace("!","").replace(",","").replace(";","").replace("?","").replace(":","").replace('"',"").replace("'","").replace("(","").replace(")","").replace(" ","").replace("/","")
+        reversed_string = updated_string[::-1]
+        if updated_string == reversed_string:
+            result = True
+        else:
+            result = False
+
+    return result
+
+
+string = str(input("Enter a sentence here: "))
+print(f"Palindrome: {is_palindrome(string)}")
