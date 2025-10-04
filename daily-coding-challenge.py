@@ -61,20 +61,56 @@
 # September 9/30/25
 
 # Python - 3
+# def is_palindrome(string):
+#     if string == " ":
+#         result = True
+#     else:
+#         updated_string = string.lower().replace(".","").replace("!","").replace(",","").replace(";","").replace("?","").replace(":","").replace('"',"").replace("'","").replace("(","").replace(")","").replace(" ","").replace("/","")
+#         reversed_string = updated_string[::-1]
+#         if updated_string == reversed_string:
+#             result = True
+#         else:
+#             result = False
 
-def is_palindrome(string):
-    if string == " ":
-        result = True
-    else:
-        updated_string = string.lower().replace(".","").replace("!","").replace(",","").replace(";","").replace("?","").replace(":","").replace('"',"").replace("'","").replace("(","").replace(")","").replace(" ","").replace("/","")
-        reversed_string = updated_string[::-1]
-        if updated_string == reversed_string:
-            result = True
-        else:
-            result = False
+#     return result
 
+
+# string = str(input("Enter a sentence here: "))
+# print(f"Palindrome: {is_palindrome(string)}")
+
+
+# ===================
+# October 1/30/25
+
+# Python - 4
+def find_missing_number(list):
+    int_list = [float(x) for x in list.split(",")]
+
+    n = max(int_list)
+    expected_sum = n * (n + 1) / 2
+    actual_sum = sum(int_list)
+
+    result = expected_sum - actual_sum
     return result
 
+list = str(input("Enter here, separate each number by a comma: "))
+print(find_missing_number(list))
 
-string = str(input("Enter a sentence here: "))
-print(f"Palindrome: {is_palindrome(string)}")
+# Python - 2
+# def find_largest(num):
+#     largest = num[0]
+
+#     for current_num in num:
+#         if largest >= current_num:
+#             largest = largest
+#         else: 
+#             largest = current_num
+#     result = largest
+    
+#     return result
+
+# user_input = str(input("Enter numbers separated by a comma: "))
+# num = [float(x) for x in user_input.split(",")]
+
+# print(find_largest(num))
+

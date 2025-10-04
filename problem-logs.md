@@ -54,4 +54,29 @@ A different background color for the "active" page (e.g., Home is active)
 The nav bar should stick to the top of the page
 
 
-#
+# September 9/30/25
+
+#### Python - 3
+Problem: Palindrome Checker
+Write a Python function called is_palindrome() that takes a string as input and returns True if the string is a palindrome, or False if it's not.
+A palindrome is a word, phrase, or sequence that reads the same backward as forward (ignoring spaces, punctuation, and capitalization).
+
+
+# October 10/1/25
+
+#### Python - 4
+Problem: Find the Missing Number
+You have a list of numbers from 1 to n, but one number is missing. Write a Python function called find_missing_number() that takes a list of integers and returns the missing number.
+
+#### Python - 2
+Problem: Find the Largest Number
+Write a Python function called find_largest() that takes a list of numbers as input and returns the largest number in the list.
+
+#### Project Euler - 5% - 1
+Multiples of 3 or 5
+
+
+# October 4 /10/4/25
+
+
+
