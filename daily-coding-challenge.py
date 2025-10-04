@@ -1,6 +1,21 @@
 # Language Used - Difficulty of 1-10
 
 # ===================
+# October 10/4/25
+
+# Python - 1
+def is_even(integer):
+    if integer % 2 == 0:
+        result = True
+    else:
+        result = False
+    return result
+
+integer = int(input("Enter here: "))
+print(is_even(integer))
+
+
+# ===================
 # September 9/26/25
 
 # Python - 1
@@ -83,18 +98,18 @@
 # October 1/30/25
 
 # Python - 4
-def find_missing_number(list):
-    int_list = [float(x) for x in list.split(",")]
+# def find_missing_number(list):
+#     int_list = [float(x) for x in list.split(",")]
 
-    n = max(int_list)
-    expected_sum = n * (n + 1) / 2
-    actual_sum = sum(int_list)
+#     n = max(int_list)
+#     expected_sum = n * (n + 1) / 2
+#     actual_sum = sum(int_list)
 
-    result = expected_sum - actual_sum
-    return result
+#     result = expected_sum - actual_sum
+#     return result
 
-list = str(input("Enter here, separate each number by a comma: "))
-print(find_missing_number(list))
+# list = str(input("Enter here, separate each number by a comma: "))
+# print(find_missing_number(list))
 
 # Python - 2
 # def find_largest(num):

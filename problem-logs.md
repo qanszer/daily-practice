@@ -78,5 +78,10 @@ Multiples of 3 or 5
 
 # October 4 /10/4/25
 
+#### Python - 1
+Problem: Even or Odd Checker
+Write a Python function called is_even() that takes a number as input and returns True if the number is even, or False if it's odd.
+
+
 
 
