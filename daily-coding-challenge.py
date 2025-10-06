@@ -1,18 +1,38 @@
 # Language Used - Difficulty of 1-10
 
 # ===================
+# October 10/6/25
+
+# Python - 3
+def fizzbuzz(n):
+    result = []
+    for i in range (1, n+1):
+        if i%3 == 0 and i%5 == 0:
+            result.append("FizzBuzz")
+        elif i%3 == 0:
+            result.append("Fizz")
+        elif i%5 == 0:
+            result.append("Buzz")
+        else:
+            current_num = str(i)
+            result.append(current_num)
+    return result
+
+n = int(input("Enter here: "))
+print(fizzbuzz(n))
+# ===================
 # October 10/4/25
 
 # Python - 1
-def is_even(integer):
-    if integer % 2 == 0:
-        result = True
-    else:
-        result = False
-    return result
+# def is_even(integer):
+#     if integer % 2 == 0:
+#         result = True
+#     else:
+#         result = False
+#     return result
 
-integer = int(input("Enter here: "))
-print(is_even(integer))
+# integer = int(input("Enter here: "))
+# print(is_even(integer))
 
 
 # ===================
