@@ -1,5 +1,15 @@
 This file contains the challenge descriptions of the completed problems.
 
+# October 10/8/25
+
+#### Python - 2
+Problem: Remove Duplicates
+Write a Python function called remove_duplicates() that takes a list as input and returns a new list with all duplicate values removed, keeping only the first occurrence of each value. The order of first appearances should be preserved.
+
+#### Python - CP2 Lab 1 Midterm
+Create a program that accepts a decimal string and then converts it to its binary string equivalent.
+
+
 # October 10/6/25
 
 #### Python - 3

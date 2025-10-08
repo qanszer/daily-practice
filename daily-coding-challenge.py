@@ -4,20 +4,42 @@
 # October 10/8/25
 
 # Python - 2
-def remove_duplicates(user_input):
-    new_list = [x for x in user_input.split(",")]
-    final_list = []
+# def remove_duplicates(user_input):
+#     new_list = [x for x in user_input.split(",")]
+#     final_list = []
 
-    for i in new_list:
-        if i in final_list:
-            continue
-        else:
-            final_list.append(i)
-    result = final_list
-    return result
+#     for i in new_list:
+#         if i in final_list:
+#             continue
+#         else:
+#             final_list.append(i)
+#     result = final_list
+#     return result
 
-user_input = input("Enter here: ")
-print(remove_duplicates(user_input))
+# user_input = input("Enter here: ")
+# print(remove_duplicates(user_input))
+
+
+# Python - CP2 Lab 1 Midterm
+user_input = (input("Enter a number to convert to binary.\nInput: "))
+num = int(user_input) # Converts the string input to int as instructed
+list = [] # List to store each binary digit
+
+# Loops until num reaches 0
+while num > 0:
+    # Detects if num has a remainder and stores 1 or 0 inside the list accordingly
+    remainder = num % 2 
+    if remainder == 0:
+        list.append("0")
+    else:
+        list.append("1")
+
+    # Divides the num
+    num = num // 2
+
+reversed = list[::-1] # Reverses the list so that it starts from the last
+result = "".join(reversed)
+print(f"Output: {result}")
 
 
 # ===================
@@ -73,6 +95,7 @@ print(remove_duplicates(user_input))
 
 # list = str(input("Enter here, separate each number by a comma: "))
 # print(find_missing_number(list))
+
 
 # Python - 2
 # def find_largest(num):
