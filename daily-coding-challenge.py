@@ -1,25 +1,47 @@
 # Language Used - Difficulty of 1-10
 
 # ===================
+# October 10/8/25
+
+# Python - 2
+def remove_duplicates(user_input):
+    new_list = [x for x in user_input.split(",")]
+    final_list = []
+
+    for i in new_list:
+        if i in final_list:
+            continue
+        else:
+            final_list.append(i)
+    result = final_list
+    return result
+
+user_input = input("Enter here: ")
+print(remove_duplicates(user_input))
+
+
+# ===================
 # October 10/6/25
 
 # Python - 3
-def fizzbuzz(n):
-    result = []
-    for i in range (1, n+1):
-        if i%3 == 0 and i%5 == 0:
-            result.append("FizzBuzz")
-        elif i%3 == 0:
-            result.append("Fizz")
-        elif i%5 == 0:
-            result.append("Buzz")
-        else:
-            current_num = str(i)
-            result.append(current_num)
-    return result
+# def fizzbuzz(n):
+#     result = []
+#     for i in range (1, n+1):
+#         if i%3 == 0 and i%5 == 0:
+#             result.append("FizzBuzz")
+#         elif i%3 == 0:
+#             result.append("Fizz")
+#         elif i%5 == 0:
+#             result.append("Buzz")
+#         else:
+#             current_num = str(i)
+#             result.append(current_num)
+#     return result
 
-n = int(input("Enter here: "))
-print(fizzbuzz(n))
+# n = int(input("Enter here: "))
+# print(fizzbuzz(n))
+
+
 # ===================
 # October 10/4/25
 
