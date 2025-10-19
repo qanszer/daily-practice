@@ -1,9 +1,42 @@
 # Language Used - Difficulty of 1-10
 
+
+# ===================
+# October 10/19/25
+
+# Python - 2
+def sum_evens(user_input):
+    list = [int(x) for x in user_input.split(",")]
+    sum = 0
+
+    for i in list:
+        if i % 2 == 0:
+            sum += i
+        else:
+            continue
+    
+    return sum
+
+user_input = str(input("Enter here: "))
+print(sum_evens(user_input))
+
+
+# ===================
+# October 10/9/25
+
+# Python - 3
+# def character_frequency(user_input):
+#     input = user_input.split(" ")
+#     dictionary = {}
+
+#     for current_char in input:
+        
+
+
 # ===================
 # October 10/8/25
 
-# Python - 2
+# Python - 3
 # def remove_duplicates(user_input):
 #     new_list = [x for x in user_input.split(",")]
 #     final_list = []
@@ -21,25 +54,25 @@
 
 
 # Python - CP2 Lab 1 Midterm
-user_input = (input("Enter a number to convert to binary.\nInput: "))
-num = int(user_input) # Converts the string input to int as instructed
-list = [] # List to store each binary digit
+# user_input = (input("Enter a number to convert to binary.\nInput: "))
+# num = int(user_input) # Converts the string input to int as instructed
+# list = [] # List to store each binary digit
 
-# Loops until num reaches 0
-while num > 0:
-    # Detects if num has a remainder and stores 1 or 0 inside the list accordingly
-    remainder = num % 2 
-    if remainder == 0:
-        list.append("0")
-    else:
-        list.append("1")
+# # Loops until num reaches 0
+# while num > 0:
+#     # Detects if num has a remainder and stores 1 or 0 inside the list accordingly
+#     remainder = num % 2 
+#     if remainder == 0:
+#         list.append("0")
+#     else:
+#         list.append("1")
 
-    # Divides the num
-    num = num // 2
+#     # Divides the num
+#     num = num // 2
 
-reversed = list[::-1] # Reverses the list so that it starts from the last
-result = "".join(reversed)
-print(f"Output: {result}")
+# reversed = list[::-1] # Reverses the list so that it starts from the last
+# result = "".join(reversed)
+# print(f"Output: {result}")
 
 
 # ===================
@@ -193,13 +226,3 @@ print(f"Output: {result}")
 # answer = simple_calculator(num1, num2, operation)
 
 # print(f"Answer: {answer}")
-
-
-
-
-
-
-
-
-
-
