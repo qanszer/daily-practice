@@ -1,8 +1,32 @@
 This file contains the challenge descriptions of the completed problems.
 
-# October 10/8/25
+# October 10/22/25
 
 #### Python - 2
+Problem: Student Grade Lookup
+Write a Python function called find_grade() that takes two parameters:
+- A list of tuples, where each tuple contains a student name and their grade (e.g., ("Alice", 85))
+- A student name (string)
+The function should return the grade of that student. If the student is not found, return None.
+
+
+# October 10/19/25
+
+#### Python - 2
+Problem: Sum of Even Numbers
+Write a Python function called sum_evens() that takes a list of numbers as input and returns the sum of only the even numbers in the list.
+
+
+# October 10/9/25
+
+#### Python - 3
+Problem: Count Character Frequency
+Write a Python function called character_frequency() that takes a string as input and returns a dictionary where each key is a character from the string and each value is how many times that character appears.
+
+
+# October 10/8/25
+
+#### Python - 3
 Problem: Remove Duplicates
 Write a Python function called remove_duplicates() that takes a list as input and returns a new list with all duplicate values removed, keeping only the first occurrence of each value. The order of first appearances should be preserved.
 

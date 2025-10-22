@@ -1,24 +1,39 @@
 # Language Used - Difficulty of 1-10
 
+# ===================
+# October 10/22/25
+
+# Python - 2
+students = [("Alice", 85), ("Bob", 92), ("Charlie", 78), ("Diana", 95)]
+
+def find_grade(students, st_name):
+    for record in students:
+        if record[0] == st_name:
+            return record[1]
+
+    return None
+
+print(find_grade(students, "Alice"))
+
 
 # ===================
 # October 10/19/25
 
 # Python - 2
-def sum_evens(user_input):
-    list = [int(x) for x in user_input.split(",")]
-    sum = 0
+# def sum_evens(user_input):
+#     list = [int(x) for x in user_input.split(",")]
+#     sum = 0
 
-    for i in list:
-        if i % 2 == 0:
-            sum += i
-        else:
-            continue
+#     for i in list:
+#         if i % 2 == 0:
+#             sum += i
+#         else:
+#             continue
     
-    return sum
+#     return sum
 
-user_input = str(input("Enter here: "))
-print(sum_evens(user_input))
+# user_input = str(input("Enter here: "))
+# print(sum_evens(user_input))
 
 
 # ===================
