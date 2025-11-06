@@ -1,19 +1,72 @@
 # Language Used - Difficulty of 1-10
 
+
+# ===================
+# November 11/6/25
+
+# Python - 2
+'''
+def safe_divide(input_num1, input_num2):
+    try:
+        division = input_num1 / input_num2
+    except ZeroDivisionError:
+        return "Error: Cannot divide by zero"
+    except (ValueError, TypeError):
+        return "Error: Invalid input"
+    
+    return division
+
+input_num1 = int(input("Enter first number: "))
+input_num2 = int(input("Enter second number: "))
+
+print(safe_divide(input_num1, input_num2))
+
+def list_average(numbers):
+    list = [float(x) for x in numbers.split(",")]
+    mean = sum(list) / len(list)
+    return mean
+
+numbers = input("Enter here: ")
+
+print(list_average(numbers))
+
+def tuple_swap(my_tuple):
+    tuple = [x for x in my_tuple.split(",")]
+    reverse = tuple[::-1]
+
+    return reverse
+
+my_tuple = input("Enter here: ")
+print(tuple_swap(my_tuple))
+'''
+
+def set_common(set1, set2):
+    Set1 = {x for x in set1.split(",")}
+    Set2 = {x for x in set2.split(",")}
+
+    result = Set1.intersection(Set2)
+    return result
+
+set1 = input("Enter here: ")
+set2 = input("Enter here: ")
+
+print(set_common(set1, set2))
+    
+
 # ===================
 # October 10/22/25
 
 # Python - 2
-students = [("Alice", 85), ("Bob", 92), ("Charlie", 78), ("Diana", 95)]
+# students = [("Alice", 85), ("Bob", 92), ("Charlie", 78), ("Diana", 95)]
 
-def find_grade(students, st_name):
-    for record in students:
-        if record[0] == st_name:
-            return record[1]
+# def find_grade(students, st_name):
+#     for record in students:
+#         if record[0] == st_name:
+#             return record[1]
 
-    return None
+#     return None
 
-print(find_grade(students, "Alice"))
+# print(find_grade(students, "Alice"))
 
 
 # ===================

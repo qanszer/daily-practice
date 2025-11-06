@@ -1,5 +1,28 @@
 This file contains the challenge descriptions of the completed problems.
 
+
+# November 11/6/25
+
+#### Python - 2
+Problem: Safe Division Calculator
+Write a Python function called safe_divide() that takes two numbers as parameters and returns the result of dividing the first number by the second. However, it should handle errors gracefully:
+
+If division by zero occurs, return the string "Error: Cannot divide by zero"
+If any other error occurs, return "Error: Invalid input"
+
+
+Function 1: list_average(numbers)
+Takes a list of numbers and returns the average (mean) of all numbers.
+
+
+Function 2: tuple_swap(my_tuple)
+Takes a tuple with exactly 2 elements and returns a new tuple with the elements swapped.
+
+
+Function 3: set_common(set1, set2)
+Takes two sets and returns a new set containing only the elements that appear in BOTH sets (intersection).
+
+
 # October 10/22/25
 
 #### Python - 2
